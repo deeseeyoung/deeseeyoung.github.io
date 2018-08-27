@@ -556,9 +556,10 @@ a.button2:hover {
 
 
     .callout2 {
-      grid-column: 3 / 7;
+      grid-column: 3 / 8;
       grid-row: 4;
       align-self: end;
+      /* margin-bottom: 1rem; */
     }
 
     .studyBlock2 {

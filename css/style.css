@@ -1,0 +1,458 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  color: #505148;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+
+/* -------- navigation -------- */
+
+nav {
+  background-color: #135E80;
+  vertical-align: middle;
+}
+
+nav div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.mymark {
+  padding: 2.8rem;
+}
+
+.mynav li, .mynavDesktop li {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  list-style-type: none;
+  padding-top: 1.6rem;
+  padding-left: 1.8rem;
+}
+
+.mynav a, .mynavDesktop a {
+  color: #4285a4;
+}
+
+.mynav a:hover {
+  color: rgba(182, 185, 169, 0.8);
+}
+
+
+.gridContainer {
+  margin: 0 auto;
+  width: 100%;
+}
+
+section {
+  padding: 0 2.8rem;
+}
+
+
+.hero {
+  background-color: #135E80;
+  padding-bottom: 2rem;
+}
+
+
+footer {
+  padding: 4.1rem 2rem 5.6rem 2.8rem;
+  background: rgba(182, 185, 169, 0.2) url("/img/cydot1.svg") repeat-x top/100%;
+}
+
+footer .fab {
+  color: rgba(182, 185, 169, 0.5);
+  font-size: 3.3rem;
+  width: 8rem;
+}
+
+footer .fab:hover {
+  color: #135E80;
+}
+
+
+/* ----  grid structure  ---- */
+
+.featureImg {
+  margin-top: 2rem;
+}
+
+.decoration {
+  display: none;
+}
+
+.dots2 {
+  grid-area: dots2;
+}
+
+.featureText {
+  padding-top: 1rem;
+}
+
+.galleryImg {
+  margin-top: 4rem;
+}
+
+.galleryText {
+  padding-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+
+/* -------  typography  ------- */
+h1, h2 {
+  font-family: 'Rufina', serif;
+  font-weight: 400;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 4.8rem;
+  margin-top: 0;
+  padding-top: 4rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 4.8rem;
+  letter-spacing: -.03rem;
+  margin-bottom: 0;
+  margin-top: 1.8rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 3.3rem;
+  font-weight: 300;
+}
+
+h3 span {
+  color: #DFD24E;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+p, li {
+  line-height: 2.6rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
+.boldIt {
+  font-weight: 600;
+}
+
+.sidebarTitle, .smallCaps {
+  font-weight: 500;
+  font-size: 1.4rem;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+
+.underline-yellow {
+  border-bottom: 0.3rem solid #DFD24E;
+}
+
+.underline-white {
+  border-bottom: 0.3rem solid #fff;
+}
+
+/* ------- add color to text ------- */
+.orange {
+  color: #DF7D2E;
+}
+
+.blueText {
+  color: #7ba7bb;
+}
+
+.credit {
+  color: rgb(182, 185, 169);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  padding-top: 1.8rem;
+}
+
+
+
+/* -------  links ------- */
+
+.projectLink a {
+  color: #DF7D2E;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #135E80;
+}
+
+footer p a {
+  color: #505148;
+  border-bottom: 0.05rem solid #505148;
+}
+
+footer p {
+  margin-bottom: 3rem;
+}
+
+
+/* ----  appearance  ---- */
+
+img {
+  max-width: 100%;
+}
+
+.hideMobile {
+  display: none;
+}
+
+
+
+
+
+/* ---- media query tablet  ---- */
+@media screen and (min-width: 768px) {
+
+  body {
+    background-color: rgba(182, 185, 169, 1);
+  }
+
+  .gridContainer {
+    background-color: #fff;
+    margin: 1% auto;
+    overflow: hidden; /* not sure I understand this */
+  }
+
+
+  .hero {
+    background-color: #fff;
+    padding-top: 4rem;
+  }
+
+  h1 {
+    color: #505148;
+    font-size: 5rem;
+  }
+
+  .blueText {
+    font-size: 2.2rem;
+    color: #505148;
+  }
+
+  section  {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .featureImg, .galleryImg {
+    background: rgba(182, 185, 169, 0) url("/img/cydots.svg") repeat 0% 0%;
+    background-size: 40%;
+  }
+
+  .featureImg img, .galleryImg img  {
+    padding: 4rem 15%;
+  }
+
+  .featureText, .galleryText {
+    padding-top: 0;
+  }
+
+  .extrame {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .credit {
+    text-align: right;
+    padding-top: 0;
+  }
+
+  .showTablet {
+    display: grid;
+  }
+
+  .hideTablet {
+    display: none;
+  }
+
+
+}
+
+
+
+
+/* ---- media query laptop  ---- */
+
+@media screen and (min-width: 1224px) {
+
+  .gridContainer {
+    display: grid;
+    background-color: #fff;
+    grid-template-columns: minmax(3.10457516%, auto) repeat(12, [row] 77px) minmax(3.10457516%, auto);
+    grid-column-gap: 1.38888%;
+    grid-template-rows: repeat(auto, [row] auto);
+    margin: 1% auto;
+    overflow: hidden;
+    max-width: 98%;
+  }
+
+  nav {
+    background-color: #fff;
+    grid-column: 1 / 15;
+    grid-row: 1;
+  }
+
+  .projectNav {
+    padding-right: 20rem;
+  }
+
+  .mymark a {
+    margin-left: 3rem;
+  }
+
+
+  .myname {
+    color: rgba(80, 81, 72, 0.8);
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding: 4rem 4rem;
+    position: fixed;
+  }
+
+  .myname div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+  }
+
+  .mynavDesktop {
+    display: grid;
+    grid-column: 10 / 15;
+    justify-content: flex-end;
+    padding-right: 4rem;
+    grid-row: 1;
+    z-index: 600;
+  }
+
+  .hideMobile {
+    display: grid;
+  }
+
+  .hideDesktop {
+    display: none;
+  }
+
+  section {
+    padding: 0;
+  }
+
+  .hero {
+    grid-column: 3 / 11;
+    grid-row: 1;
+    padding-top: 15rem;
+  }
+
+  .featureText {
+    grid-column: 3 / 6;
+    grid-row: 2;
+    padding-top: 6rem;
+  }
+
+  .featureImg {
+    grid-column: 7 / 15;
+    grid-row: 2;
+  }
+
+  .galleryImg {
+    grid-column: 1 / 8;
+    grid-row: 3;
+    margin-bottom: 8rem;
+  }
+
+  .galleryImg div {
+    margin-left: 20rem;
+  }
+
+  .galleryImg img  {
+      /* width: 1000px; */
+      padding: 4rem 0;
+    }
+
+  .galleryText {
+    grid-column: 9 / 13;
+    grid-row: 3;
+    padding-top: 11rem;
+  }
+
+
+  footer {
+    background-size: 50%;
+    grid-column: 1 / 15;
+    grid-row: 4;
+    padding: 4rem 11rem;
+  }
+
+
+}
+
+
+/* ---- media query desktop  ---- */
+
+@media screen and (min-width: 1440px) {
+
+  .gridContainerStudy {
+    display: grid;
+    /* background-color: #DFD24E; */
+    grid-template-columns: minmax(8.888888%, auto) repeat(12, [row] 77px) minmax(8.888888%, auto);
+    grid-column-gap: 1.38888%;
+    grid-template-rows: repeat(auto, [row] auto);
+    margin: 1% auto;
+    overflow: hidden;
+    max-width: 98%;
+  }
+
+}
+
+
+
+
+
+
+
+
+/* colors
+blue: #135E80
+yellow: #DFD24E
+orange: #DF7D2E
+grey solid: #505148
+grey footer: rgba(182, 185, 169, 0.2)
+*/

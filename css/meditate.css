@@ -176,6 +176,10 @@ p, li {
   line-height: 2.6rem;
   margin-bottom: 1.4rem;
 }
+p.focusPassage {
+  font-size: 1.75em;
+  line-height: 1.3em;
+}
 sup { top: -0.2em; }
 
 .boldIt {
@@ -461,7 +465,6 @@ a.button2:hover {
   p.focusPassage {
     font-size: 5em;
     line-height: 1.2em;
-    /* padding-left: 15%; */
   }
   p.passage {
     font-size: 2em;

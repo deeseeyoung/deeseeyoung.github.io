@@ -175,6 +175,7 @@ h4 {
 p, li {
   line-height: 2.6rem;
   margin-bottom: 1.4rem;
+  margin-top:0.5em;
 }
 p.focusPassage {
   font-size: 1.75em;

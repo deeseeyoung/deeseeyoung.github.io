@@ -277,8 +277,8 @@ img { max-width: 100%; }
 
   .hero {
     grid-column: 3 / 6;
-    grid-row: 2;
-    padding-top: 2rem;
+    grid-row: 1;
+    padding-top: 10rem;
     padding-bottom: 0;
     margin-bottom: 0;
     z-index: 200;
@@ -295,15 +295,9 @@ img { max-width: 100%; }
       padding: 0;
     }
 
-  /*   .studyBlock1 {
-    grid-column: 4 / 11;
-    grid-row: 5;
-    padding-top: 3rem;
-  } */
-
     .studyBlock1 {
       grid-column: 4 / 12;
-      grid-row: 3;
+      grid-row: 2;
       padding-top: 1rem;
       padding-bottom: 3rem;
     }

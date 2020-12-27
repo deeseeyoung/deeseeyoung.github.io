@@ -188,6 +188,12 @@ img { max-width: 100%; }
     padding-right: 15%;
   }
 
+  .houses2020 {
+    grid-column: 4 / 12;
+    grid-row: 1;
+    display: flex;
+  }
+
   .credit {
     text-align: right;
     padding-top: 0;
@@ -294,13 +300,11 @@ img { max-width: 100%; }
     .houses {
       padding: 0;
     }
-
     .houses2020 {
-      grid-column: 4 / 12;
-      grid-row: 1;
       padding-top: 20rem;
-      display: flex;
     }
+
+
 
     .hideDesktop { display: none; }
 

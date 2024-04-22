@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagerborg &amp; Associates</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/stylegallery.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Rufina" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <div class="gridContainerStudy">
+
+      <nav class="nav01">
+        <div class="mymark hideDesktop">
+          <div class="">
+            <img class="logo" src="img/stamp.svg" alt="passport stamp" width="100">
+          </div>
+        </div>
+
+        <div class="myname hideMobile">
+          <div class="">
+            <a href="index.html">
+            <img class="logo" src="img/stamp.svg" alt="passport stamp" width="120"></a>
+          </div>
+          <div class="">
+            <p style="writing-mode: vertical-rl">Empowering community</p>
+          </div>
+        </div>
+
+      </nav>
+
+      <section class="fullPhoto">
+        <img src="img/IMG_1495.JPG" alt="">
+      </section>
+
+
+
+    <section class="hero">
+      <p><span class="smallCaps underline-yellow">Chapter 01</span></p>
+      <h1>Lagerborg &amp; Associates</h1>
+    </section>
+
+
+    <section class="heroCollage3 hideMobile">
+      <img class="frame" src="img/IMG_2077.JPG" alt="" width="400">
+    </section>
+
+
+    <!-- to wrap sections in white -->
+
+    <section class="wrapWhite hideMobile">
+    </section>
+
+
+      <section class="callout callout1">
+        <div class="caretUp">
+          <img src="img/caretUp.svg" alt="triangle pointing up" width="18">
+        </div>
+          <p>Hanna Moshi Primary School</p>
+
+        <!-- <div class="caretDown">
+          <img src="img/caretDown.svg" alt="triangle pointing down" width="18">
+        </div> -->
+      </section>
+
+
+      <section class="studyBlock studyBlock1">
+<!--         <h3><span>01</span> The group</h3>
+         -->
+        <p><span class="boldIt">Fresh out of the University of Richmond with degrees in finance and computer science, Daniel Lagerborg had it made with the best job anyone could ask for. He had been hired by Accenture contingent upon graduation, but by the time he graduated they didn’t need him. So they paid him a lump sum to hang out for a year and wait until they called.</p>
+        <p>When they still didn’t need him a year later, Dan moved back to Denver, his hometown, and interviewed. He talked with a recruiter at Cunningham Group of Northwestern Mutual, (at that time it was Richards Group but quickly changed to Cunningham Group). Dan said the job offer ran like this, “We’d love to hire you. There’s no base pay. There’s no salary. You’ve got to train for a couple of months, so you can’t earn a commission yet and you need to get a computer. But it’s a great career and you’ll love it.”</p>
+        <p>The next morning Dan was praying in his apartment. With his head on the ottoman he prayed, God, thanks for shutting that door for me. I don’t have a good computer. I don’t have any suits. Thank you for shutting that door because I can’t afford it.</p>
+        <p>Later that day he visited a former employer, Dan Glassett, at his photography studio. Three minutes into the conversation Glassett said, “I’m super busy today, but I’ve got this extra computer I thought you’d want. Do you want it?”</p>
+        <p>“Sure.” Dan tossed the computer into his trunk and drove to his parents’ house. That afternoon he was talking to his parents’ neighbor, Chuck Blaskovich, who sized Dan up and said, “You’re about my size. I can’t buy new suits until I get rid of some. Can I give you a few?” Dan came away with 12 suits that fit him perfectly. He was thinking, Okay, I’d better give this job a try. His hire date as an advisor with Northwestern Mutual was December 2002.</p>
+        <p>At the time Brian Cunningham had just become managing partner. He was busy setting up his business and had very little bandwidth to train Dan. A guy came to do the training who had been in the business for 20 years. But Dan couldn’t help but notice, while he watched this guy, that his shirt collar and cuffs were frayed. This planted a negative seed. What was he getting himself into if after 20 years he dressed like this?</p>
+        <p>Still tucked in a back corner of Dan’s clothes closet is a pair of worn black dress shoes. He never wears them, but he can’t get rid of them. They’re the only dress shoes he could afford for the first three years, maybe more, of his job at Northwestern Mutual. “These things are so ratty,” said Dan, “I think I went through three or four soles on them. They smell. You put your foot in them and your foot smells bad for a month. They’re just so beat-up. But I couldn’t afford new shoes. And they were black. Black shoes every day.”</p>
+        <p>In the early years Dan was desperate to have meetings, so he drove all over to see clients, in blizzards or any weather, in his 1989 Subaru GL called “Frank” that he’d bought for $2,000. Every time he turned right smoke blew out the rear. Frank’s maximum speed was 55 mph, so Dan hated driving the highway. One time in snow he high centered Frank in a parking lot because he couldn’t see the barriers and he had to push him off in his suit. He was always late. Always speeding (which was hard to do). No time for bathroom breaks. But what a Godsend! Reliable. Everything worked. When he started Dan paid himself $750 per month, increasing it to $1,250 when he and Stephanie were married nine months later.</p>
+      </section>
+
+
+      <section class="school1add">
+        <img src="img/yes/student.jpg" class="frame" alt="">
+      </section>
+
+
+      <section class="school1">
+        <img src="img/yes/IMG_1906.JPG" class="frame" alt="">
+      </section>
+
+      <section class="school2">
+        <img src="img/yes/school02.jpg" class="frame" alt="">
+      </section>
+
+      <section class="callout callout2">
+        <div class="caretUp">
+          <img src="img/caretUp.svg" alt="triangle pointing up" width="18">
+        </div>
+          <p>Pictured • Team members would have morning tea and g-nuts (like peanuts, but smaller) with students at Hannah Moshi School • Team members helped students create life maps, writing out events that have shaped them, to share with their sponsors • At church: A translator helps the team share Bible stories using a storying cloth.</p>
+
+        <div class="caretDown">
+          <img src="img/caretDown.svg" alt="triangle pointing down" width="18">
+        </div>
+      </section>
+
+
+
+
+
+      <section class="school3">
+        <img src="img/yes/school03.jpg" class="frame" alt="">
+      </section>
+
+      <section class="school4">
+        <img src="img/yes/school04.JPG" class="frame" alt="">
+      </section>
+
+
+
+      <section class="studyBlock studyBlock2">
+        <p><span class="boldIt">Did the students speak English?</span> The students speak limited English, having learned it in classes. But, to be sure they understood in their heart language, we relied on translators during teaching times. We spent a lot of time with the translators and they became dear friends.</p>
+        <p><span class="boldIt">How did the team share the gospel?</span> Above you see Kym using a storying cloth to share the story of the Bible during a Sunday School lesson. We also shared God's love with the students by living and eating with them, playing football (soccer), and learning their dances.</p>
+        <p><span class="boldIt">How was the food?</span> They fed us well and we needed to clear our plates. We had rice and beans, pumpkin, yams, chapati (an unleavened flatbread), potatoes, and matoke (the national dish of Uganda, using a variety of banana indigenous to the country). Another common item was posha, made with cornmeal and sits like cement in your stomach. And we drank a lot of African milky sweet Masala Chai.</p>
+      </section>
+
+      <section class="school5">
+        <img src="img/yes/school05.jpg" class="frame" alt="">
+      </section>
+
+      <section class="school6">
+        <img src="img/yes/school06.JPG" alt="">
+      </section>
+
+
+
+      <section class="studyBlock studyBlock3">
+        <p><span class="boldIt">On this trip, what did you learn about yourself, about the world, and about God?</span> I am still processing what I saw and did. I heard the difficult life stories as I helped students create life maps for their sponsors. I'm trusting God will continue to teach me from this trip, but I especially enjoyed the time I had to become friends with Sarah, Esther, Joy, Sandra, Shivana, Annett, and Gloria. And I saw how taking the time to build relationships is how we build the bridges to share God's love.</p>
+
+        <p>I learned how unnecessary many of our 'necessities' are. I was able to live without plumbing, without a shower or toilet. We all used squatty potties, buckets of water to bathe and wash our clothing. It put things in perspective. Their way of life is hard, yet, simple and humbling.</p>
+      </section>
+
+      <section class="school7">
+        <img class="frame" src="img/yes/school07.jpg" alt="">
+      </section>
+
+      <section class="school8">
+        <img class="frame" src="img/yes/school08.JPG" alt="">
+      </section>
+
+      <section class="school9">
+        <img class="frame" src="img/yes/school09.JPG" alt="">
+      </section>
+
+
+      <section class="studyBlock studyBlock4">
+        <p><span class="boldIt">Thank you </span>for supporting me and praying for me as I went to Uganda. I have been blessed that you enabled me to visit another part of this world, to see God at work, and to now have dear friends in Uganda. One friend, sent me home with a letter for my parents, reminding us with the words from 1 Thessalonians 5:16-18, "Be joyful always, pray at all times, be thankful in all circumstances. This is what God wants from you in your life in union with Christ Jesus." Let it be so.</p>
+      </section>
+
+      <section class="group">
+        <img class="frame" src="img/yes/group.jpg" alt="">
+      </section>
+
+      <section class="scene">
+        <img  src="img/yes/closing.jpg" alt="">
+      </section>
+
+
+<!--   Footer
+    <footer class="full">
+        <div class="">
+          <p class="credit">Built by Cindy Young, 2024. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer> -->
+
+    </div>
+  </body>
+</html>
